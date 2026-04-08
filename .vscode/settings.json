@@ -53,6 +53,6 @@
     "pcss",
     "postcss"
   ],
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "astro.updateImportsOnFileMove.enabled": true
+  "astro.updateImportsOnFileMove.enabled": true,
+  "js/ts.tsdk.path": "node_modules/typescript/lib"
 }
