@@ -54,12 +54,12 @@ const dark = themeConfig.appearance.theme === 'dark'
       /* 页面首次加载动画 */
       html.animation-prepared .transition-swup-header,
       html.animation-prepared .transition-swup-footer {
-        animation: fade-in-down 1s linear 1;
+        animation: fade-in-down 0.12s linear 1;
         --at-apply: 'lg-animate-name-fade-in-left';
       }
 
       html.animation-prepared .transition-swup-main {
-        animation: fade-in-down 1s linear 1;
+        animation: fade-in-down 0.12s linear 1;
       }
 
       @keyframes fade-in-down {
@@ -95,7 +95,7 @@ const dark = themeConfig.appearance.theme === 'dark'
         transform: translateY(1rem);
       }
       .transition-swup-main {
-        transition-duration: 0.5s;
+        transition-duration: 0.12s;
         transition-timing-function: linear;
         transform: translateY(0);
         opacity: 1;
