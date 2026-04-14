@@ -22,7 +22,7 @@ export async function getCategories() {
 }
 
 export async function getPosts(isArchivePage = false) {
-  const posts = await getCollection('posts')
+  const posts = (await getCollection('posts')).filter(post => post.data.draft !== true)
 
   posts.sort((a, b) => {
     if (isArchivePage) {
@@ -34,10 +34,6 @@ export async function getPosts(isArchivePage = false) {
 
     return aDate.isBefore(bDate) ? 1 : -1
   })
-
-  if (import.meta.env.PROD) {
-    return posts.filter(post => post.data.draft !== true)
-  }
 
   return posts
 }

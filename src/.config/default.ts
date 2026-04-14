@@ -5,28 +5,24 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
+    title: '芝士饭团',
+    subtitle: 'Cheese Rice Ball',
     author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
+    description: '芝士饭团的博客。',
     website: 'https://astro-theme-typography.vercel.app/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/liuchuana',
+      },
+      {
+        name: 'bilibili',
+        href: 'https://space.bilibili.com/4534580',
       },
       {
         name: 'rss',
         href: '/atom.xml',
-      },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
       },
     ],
     navLinks: [

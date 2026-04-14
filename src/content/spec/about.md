@@ -1,6 +1,19 @@
 ---
-title: 关于
+title: 有关于我
 pubDate: 2024-12-06
 ---
 
-此主题系 Hexo 主题 <a href="https://github.com/sumimakito/hexo-theme-typography">活版印字</a> 在 Astro 平台上的移植版本
+### 关于我
+
+你好，我是芝士饭团，也可以叫我饭团。是一名全栈开发，除了敲代码还喜欢电吉他。
+
+我会分享记录一些日常，以及偶尔冒出来的想法和灵感。有些可能很零碎，但对我来说，都是过程的一部分。
+
+### 联系我
+
+- 称呼：饭团 / 芝士饭团
+- Email：<a href="mailto:liuchuana@hotmail.com">liuchuana@hotmail.com</a>
+
+欢迎来信交流。
+
+无论是随便聊聊、讨论技术、指出问题，还是分享你读到这里时想到的东西，我都会很开心。
