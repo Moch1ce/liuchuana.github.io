@@ -3,7 +3,28 @@ import type { UserConfig } from '~/types'
 export const userConfig: Partial<UserConfig> = {
   // Override the default config here
   site: {
+    title: '芝士饭团',
+    subtitle: 'Cheese Rice Ball',
+    author: '芝士饭团',
+    description: '芝士饭团的博客。',
     website: 'https://liuchuana.com/',
+    socialLinks: [
+      {
+        name: 'github',
+        href: 'https://github.com/liuchuana',
+      },
+      {
+        name: 'bilibili',
+        href: 'https://space.bilibili.com/4534580',
+      },
+      {
+        name: 'rss',
+        href: '/atom.xml',
+      },
+    ],
+  },
+  seo: {
+    twitter: '',
   },
   comment: {
     giscus: {
@@ -23,5 +44,4 @@ export const userConfig: Partial<UserConfig> = {
     },
   },
   // site: { title: "講評世界" },
-  // seo: { twitter: "@moeyua13" },
 }
