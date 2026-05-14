@@ -14,7 +14,7 @@ pubDate: 2024-12-06
 ### 找到我
 
 - 称呼：芝士饭团 / 饭团
-- Email：<a href="mailto:liuchuana@hotmail.com">liuchuana@hotmail.com</a>
+- Email：isliuchuan@gmail.com
 
 欢迎来信交流。
 
